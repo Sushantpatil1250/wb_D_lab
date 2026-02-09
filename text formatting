@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Formatting Tags</title>
+</head>
+<body>
+
+<h2>HTML Text Formatting Tags Examples</h2><br><br>
+
+<strong>Sushant Patil</strong><br><br>
+
+<i>Sushant Patil</i><br><br>
+
+<em>Sushant Patil</em><br><br>
+
+<u>Sushant Patil</u><br><br>
+
+<mark>Sushant Patil</mark><br><br>
+
+<small>Sushant Patil</small><br><br>
+
+<s>Sushant Patil</s><br><br>
+
+<del>Sushant Patil</del><br><br>
+
+<ins>Sushant Patil</ins><br><br>
+
+<code>Sushant Patil</code><br><br>
+
+<samp>Sample Text</samp><br><br>
+
+<q>Sushant Patil</q><br><br>
+
+<cite>Sushant Patil</cite><br><br>
+
+<abbr title="Student Name">Sushant Patil</abbr>
+
+</body>
+</html>
