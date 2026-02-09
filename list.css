@@ -1,0 +1,20 @@
+#box{
+    background-color: hsl(115, 79%, 68%);
+    border: 2px rgb(46, 76, 59) solid;
+    margin: auto;
+    /* margin-right: 10px; */
+    height: auto;
+    width: 30%;
+
+    padding: 10px;
+    justify-content: center;
+
+}
+#he{
+    text-align: center;
+    tab-size: 100px;
+    text-decoration-line: underline ;
+}
+.bo{
+    color: #6dade4;
+}
