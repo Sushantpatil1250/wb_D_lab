@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            margin: 0;
+            padding: 0;
+        }
+
+        #box1 {
+            width: 420px;
+            margin: 60px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+            text-align: center;
+
+            /* Animation */
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        img {
+            border-radius: 50%;
+            margin: 10px 0;
+            border: 3px solid #007bff;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        li {
+            padding: 5px 0;
+            color: #444;
+        }
+
+        .section {
+            margin-top: 15px;
+            text-align: left;
+        }
+
+        .section h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        /* Button */
+        .btn {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            background: #4a7a46;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+<div id="box1">
+
+    <h1>Welcome To My Profile</h1>
+
+    <img src="pro.jpg" height="170px" alt="My Photo">
+
+    <!-- Personal Info -->
+    <ul>
+        <li><b>Name:</b> Sushant Sudhakar Patil</li>
+        <li><b>Age:</b> 21</li>
+        <li><b>City:</b> Kolhapur</li>
+        <li><b>Email:</b> suhantpatil502x@gmail.com</li>
+    </ul>
+
+    <!-- Qualification -->
+    <div class="section">
+        <h2>Qualification</h2>
+        <ul>
+            <li>B.Tech CSE</li>
+        </ul>
+    </div>
+
+    <!-- College -->
+    <div class="section">
+        <h2>College</h2>
+        <ul>
+            <li>DYPCET</li>
+        </ul>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+        </ul>
+    </div>
+
+    <!-- Internship -->
+    <div class="section">
+        <h2>Internship</h2>
+        <ul>
+            <li>Social Rural Internship</li>
+            <li>Web Development Summer Internship</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <ul>
+            <li>9168321629</li>
+        </ul>
+    </div>
+    
+
+</div>
+
+</body>
+</html>

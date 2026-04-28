@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: darkblue;
+}
+
+.box, .section {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+}
